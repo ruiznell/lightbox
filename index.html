@@ -4,8 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="./materiali/lightbox2-2.11.3/dist/css/lightbox.min.css" rel="stylesheet" />
 </head>
 <body>
+    <h1>Esempi per lightbox</h1>
+    <h2>solo link</h2>
+
+    <a  data-lightbox="mela" 
+        data-title="sono la solita mela"
     
+        href="./image/mela.jpg" data-lightbox="roadtrip">vedi la mela</a>
+
+        <h2>miniatura e link</h2>
+
+        <a data-lightbox="miniature" 
+        
+        
+        href="./image/mela.jpg">
+
+        <img src="./image/mela.jpg" width="32px">
+</a>
+
+<h2>set di imagine</h2>
+<a href="./image/mela.jpg" data-lightbox="fruta" data-title="sono una mela">mela</a>
+<a href="./image/pera.jpg" data-lightbox="fruta">pera</a>
+<a href="./image/pesche.jpg" data-lightbox="fruta">pesche</a>
+
+
+
+    <script src="./materiali/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
 </body>
 </html>
